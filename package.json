@@ -1,0 +1,25 @@
+{
+  "name": "qrcode",
+  "version": "1.0.0",
+  "description": "Generador inteligente de códigos QR para múltiples tipos de datos",
+  "keywords": [
+    "qr",
+    "nodejs"
+  ],
+  "license": "ISC",
+  "author": "Dylan Acevedo, Jeferson Lopez, Davisson Roman",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deamacevedo/smart-qr-generator.git"
+  },
+  "main": "main.js",
+  "scripts": {
+    "start": "node main-simple.js",
+    "dev": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  }
+}
